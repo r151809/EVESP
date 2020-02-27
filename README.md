@@ -1,6 +1,8 @@
 # EVESP
 ESP32 (Lolin32) based EV charge controller
 
+Project maturity: just schematics (no testing nor SW yet)
+
 Only fixed cables are supported (no PP support).
 
 Recidual current (AC+DC) protection is planned with https://deltrixchargers.com/wp-content/uploads/2019/10/WA-DS-015-RCM14-03-Rev-B.pdf
