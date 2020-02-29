@@ -1,4 +1,4 @@
-update=Torstai 27. Helmikuu 2020 klo 18.31.20
+update=Lauantai 29. Helmikuu 2020 klo 20.51.15
 version=1
 last_client=kicad
 [cvpcb]
@@ -37,8 +37,9 @@ MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.5
 TrackWidth2=0.3
-TrackWidth3=0.5
-TrackWidth4=1
+TrackWidth3=0.4
+TrackWidth4=0.5
+TrackWidth5=1
 ViaDiameter1=0.6
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -248,7 +249,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=240Vac
-Clearance=1.27
+Clearance=0.508
 TrackWidth=1.27
 ViaDiameter=0.6
 ViaDrill=0.4
