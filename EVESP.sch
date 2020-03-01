@@ -51,13 +51,9 @@ Wire Wire Line
 	4250 1800 4450 1800
 Text Label 4950 3600 0    50   ~ 0
 Relay_0_n
-Wire Wire Line
-	3650 1600 3500 1600
-Wire Wire Line
-	3650 1800 3350 1800
-Text Label 3350 1800 2    50   ~ 0
+Text Label 2750 1800 2    50   ~ 0
 L1_fused
-Text Label 3350 1600 2    50   ~ 0
+Text Label 2750 1600 2    50   ~ 0
 REL_0
 $Comp
 L Device:Fuse F1
@@ -70,40 +66,11 @@ F 3 "~" H 1400 1950 50  0001 C CNN
 	1    1400 1950
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	3500 1200 3500 1100
-Wire Wire Line
-	3500 1100 3350 1100
-Wire Wire Line
-	3500 1500 3500 1600
-Connection ~ 3500 1600
-Wire Wire Line
-	3500 1600 3350 1600
-Text Label 3350 1100 2    50   ~ 0
-N
 Text Label 1850 1950 2    50   ~ 0
 L1_fused
-Text Label 1850 1250 2    50   ~ 0
-REL_0
-Text Label 1850 1350 2    50   ~ 0
-REL_1
-Wire Wire Line
-	1100 1350 1850 1350
-Wire Wire Line
-	1100 1250 1850 1250
 Text Label 1850 1850 2    50   ~ 0
 N
-Wire Wire Line
-	1100 1450 1850 1450
-Text Label 1850 1650 2    50   ~ 0
-N
-Wire Wire Line
-	1100 1550 1850 1550
-Text Label 1850 1450 2    50   ~ 0
-REL_2
-Wire Wire Line
-	1100 1650 1850 1650
-Text Label 1850 1550 2    50   ~ 0
+Text Label 2750 1350 0    50   ~ 0
 N
 Wire Wire Line
 	1100 1850 1850 1850
@@ -133,25 +100,10 @@ Wire Wire Line
 	4250 2700 4450 2700
 Text Label 4950 2700 0    50   ~ 0
 Relay_1_n
-Wire Wire Line
-	3650 2500 3500 2500
-Wire Wire Line
-	3650 2700 3350 2700
-Text Label 3350 2700 2    50   ~ 0
+Text Label 2750 2700 2    50   ~ 0
 L1_fused
-Text Label 3350 2500 2    50   ~ 0
+Text Label 2750 2500 2    50   ~ 0
 REL_1
-Wire Wire Line
-	3500 2100 3500 2000
-Wire Wire Line
-	3500 2000 3350 2000
-Wire Wire Line
-	3500 2400 3500 2500
-Connection ~ 3500 2500
-Wire Wire Line
-	3500 2500 3350 2500
-Text Label 3350 2000 2    50   ~ 0
-N
 $Comp
 L Relay_SolidState:MOC3063M U4
 U 1 1 5E59C4D3
@@ -178,36 +130,21 @@ Wire Wire Line
 	4250 3600 4450 3600
 Text Label 4950 1800 0    50   ~ 0
 Relay_2_n
-Wire Wire Line
-	3650 3400 3500 3400
-Wire Wire Line
-	3650 3600 3350 3600
-Text Label 3350 3600 2    50   ~ 0
+Text Label 2750 3600 2    50   ~ 0
 L1_fused
-Text Label 3350 3400 2    50   ~ 0
+Text Label 2750 3400 2    50   ~ 0
 REL_2
 $Comp
 L Device:Varistor RV3
 U 1 1 5E59C4EE
-P 3500 3150
-F 0 "RV3" H 3379 3196 50  0000 R CNN
-F 1 "V275LA20AP" H 3379 3105 50  0000 R CNN
-F 2 "Varistor:RV_Disc_D15.5mm_W6.8mm_P7.5mm" V 3430 3150 50  0001 C CNN
-F 3 "~" H 3500 3150 50  0001 C CNN
-	1    3500 3150
-	1    0    0    -1  
+P 3350 3500
+F 0 "RV3" H 3229 3546 50  0000 R CNN
+F 1 "V275LA20AP" H 3229 3455 50  0000 R CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W6.8mm_P7.5mm" V 3280 3500 50  0001 C CNN
+F 3 "~" H 3350 3500 50  0001 C CNN
+	1    3350 3500
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3500 3000 3500 2900
-Wire Wire Line
-	3500 2900 3350 2900
-Wire Wire Line
-	3500 3300 3500 3400
-Connection ~ 3500 3400
-Wire Wire Line
-	3500 3400 3350 3400
-Text Label 3350 2900 2    50   ~ 0
-N
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5E59E21E
@@ -943,24 +880,24 @@ Wire Wire Line
 $Comp
 L Device:Varistor RV2
 U 1 1 5EA4D243
-P 3500 2250
-F 0 "RV2" H 3379 2296 50  0000 R CNN
-F 1 "V275LA20AP" H 3379 2205 50  0000 R CNN
-F 2 "Varistor:RV_Disc_D15.5mm_W6.8mm_P7.5mm" V 3430 2250 50  0001 C CNN
-F 3 "~" H 3500 2250 50  0001 C CNN
-	1    3500 2250
-	1    0    0    -1  
+P 3350 2600
+F 0 "RV2" H 3229 2646 50  0000 R CNN
+F 1 "V275LA20AP" H 3229 2555 50  0000 R CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W6.8mm_P7.5mm" V 3280 2600 50  0001 C CNN
+F 3 "~" H 3350 2600 50  0001 C CNN
+	1    3350 2600
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:Varistor RV1
 U 1 1 5EA4D723
-P 3500 1350
-F 0 "RV1" H 3379 1396 50  0000 R CNN
-F 1 "V275LA20AP" H 3379 1305 50  0000 R CNN
-F 2 "Varistor:RV_Disc_D15.5mm_W6.8mm_P7.5mm" V 3430 1350 50  0001 C CNN
-F 3 "~" H 3500 1350 50  0001 C CNN
-	1    3500 1350
-	1    0    0    -1  
+P 3350 1700
+F 0 "RV1" H 3229 1746 50  0000 R CNN
+F 1 "V275LA20AP" H 3229 1655 50  0000 R CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W6.8mm_P7.5mm" V 3280 1700 50  0001 C CNN
+F 3 "~" H 3350 1700 50  0001 C CNN
+	1    3350 1700
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x06 J2
@@ -1501,12 +1438,8 @@ F 3 "~" H 7450 4750 50  0001 C CNN
 	1    7450 4750
 	1    0    0    -1  
 $EndComp
-Text Label 1850 1750 2    50   ~ 0
-N
-Text Label 1850 2700 2    50   ~ 0
+Text Label 1950 6650 2    50   ~ 0
 CP
-Wire Wire Line
-	1100 1750 1850 1750
 Wire Wire Line
 	5500 4900 6050 4900
 Wire Wire Line
@@ -1546,38 +1479,38 @@ D3
 $Comp
 L Connector:Screw_Terminal_01x03 J8
 U 1 1 60B22000
-P 900 2700
-F 0 "J8" H 818 2375 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 818 2466 50  0000 C CNN
-F 2 "Connector_Wago:Wago_734-133_1x03_P3.50mm_Vertical" H 900 2700 50  0001 C CNN
-F 3 "~" H 900 2700 50  0001 C CNN
-	1    900  2700
+P 1000 6650
+F 0 "J8" H 918 6325 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 918 6416 50  0000 C CNN
+F 2 "Connector_Wago:Wago_734-133_1x03_P3.50mm_Vertical" H 1000 6650 50  0001 C CNN
+F 3 "~" H 1000 6650 50  0001 C CNN
+	1    1000 6650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1850 2700 1100 2700
+	1950 6650 1200 6650
 $Comp
 L power:GND #PWR0101
 U 1 1 60B861D3
-P 1850 2900
-F 0 "#PWR0101" H 1850 2650 50  0001 C CNN
-F 1 "GND" H 1855 2727 50  0000 C CNN
-F 2 "" H 1850 2900 50  0001 C CNN
-F 3 "" H 1850 2900 50  0001 C CNN
-	1    1850 2900
+P 1950 6850
+F 0 "#PWR0101" H 1950 6600 50  0001 C CNN
+F 1 "GND" H 1955 6677 50  0000 C CNN
+F 2 "" H 1950 6850 50  0001 C CNN
+F 3 "" H 1950 6850 50  0001 C CNN
+	1    1950 6850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 2900 1850 2800
+	1950 6850 1950 6750
 Wire Wire Line
-	1850 2800 1300 2800
+	1950 6750 1400 6750
 Wire Wire Line
-	1100 2600 1300 2600
+	1200 6550 1400 6550
 Wire Wire Line
-	1300 2600 1300 2800
-Connection ~ 1300 2800
+	1400 6550 1400 6750
+Connection ~ 1400 6750
 Wire Wire Line
-	1300 2800 1100 2800
+	1400 6750 1200 6750
 Wire Wire Line
 	3000 8700 3400 8700
 $Comp
@@ -2198,23 +2131,23 @@ Connection ~ 12400 3650
 $Comp
 L Device:C C18
 U 1 1 624183E6
-P 2650 1150
-F 0 "C18" H 2765 1196 50  0000 L CNN
-F 1 "100n" H 2765 1105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 1000 50  0001 C CNN
-F 3 "~" H 2650 1150 50  0001 C CNN
-	1    2650 1150
+P 5500 2350
+F 0 "C18" H 5615 2396 50  0000 L CNN
+F 1 "100n" H 5615 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5538 2200 50  0001 C CNN
+F 3 "~" H 5500 2350 50  0001 C CNN
+	1    5500 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 62418F3E
-P 2650 1350
-F 0 "#PWR0111" H 2650 1100 50  0001 C CNN
-F 1 "GND" H 2655 1177 50  0000 C CNN
-F 2 "" H 2650 1350 50  0001 C CNN
-F 3 "" H 2650 1350 50  0001 C CNN
-	1    2650 1350
+P 5500 2550
+F 0 "#PWR0111" H 5500 2300 50  0001 C CNN
+F 1 "GND" H 5505 2377 50  0000 C CNN
+F 2 "" H 5500 2550 50  0001 C CNN
+F 3 "" H 5500 2550 50  0001 C CNN
+	1    5500 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2231,18 +2164,18 @@ $EndComp
 $Comp
 L power:+3V3 #PWR0113
 U 1 1 62419A43
-P 2650 950
-F 0 "#PWR0113" H 2650 800 50  0001 C CNN
-F 1 "+3V3" H 2665 1123 50  0000 C CNN
-F 2 "" H 2650 950 50  0001 C CNN
-F 3 "" H 2650 950 50  0001 C CNN
-	1    2650 950 
+P 5500 2150
+F 0 "#PWR0113" H 5500 2000 50  0001 C CNN
+F 1 "+3V3" H 5515 2323 50  0000 C CNN
+F 2 "" H 5500 2150 50  0001 C CNN
+F 3 "" H 5500 2150 50  0001 C CNN
+	1    5500 2150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 950  2650 1000
+	5500 2150 5500 2200
 Wire Wire Line
-	2650 1300 2650 1350
+	5500 2500 5500 2550
 Wire Wire Line
 	10250 2600 11400 2600
 Wire Wire Line
@@ -2299,14 +2232,14 @@ Wire Wire Line
 Wire Wire Line
 	1550 1950 1850 1950
 $Comp
-L Connector:Screw_Terminal_01x08 J1
+L Connector:Screw_Terminal_01x02 J1
 U 1 1 631DBD75
-P 900 1550
-F 0 "J1" H 818 2067 50  0000 C CNN
-F 1 "Screw_Terminal_01x08" H 818 1976 50  0000 C CNN
-F 2 "Connector_Wago:Wago_734-138_1x08_P3.50mm_Vertical" H 900 1550 50  0001 C CNN
-F 3 "~" H 900 1550 50  0001 C CNN
-	1    900  1550
+P 900 1850
+F 0 "J1" H 900 2100 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 600 2000 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 900 1850 50  0001 C CNN
+F 3 "~" H 900 1850 50  0001 C CNN
+	1    900  1850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2837,4 +2770,113 @@ Text Notes 5450 7150 0    50   ~ 0
 Open drain driver \nreleases with fault \ncurrent.
 Text Notes 8400 6400 0    50   ~ 0
 RC=100ms => \nSW must implement \nbigger delay on the enable.
+Wire Wire Line
+	2750 3400 3600 3400
+Wire Wire Line
+	2750 3600 3100 3600
+Wire Wire Line
+	3600 3500 3600 3400
+Wire Wire Line
+	3500 3500 3600 3500
+Connection ~ 3600 3400
+Wire Wire Line
+	3600 3400 3650 3400
+Wire Wire Line
+	3200 3500 3100 3500
+Wire Wire Line
+	3100 3500 3100 3600
+Connection ~ 3100 3600
+Wire Wire Line
+	3100 3600 3650 3600
+Wire Wire Line
+	2750 2700 3100 2700
+Wire Wire Line
+	2750 2500 3600 2500
+Wire Wire Line
+	3200 2600 3100 2600
+Wire Wire Line
+	3100 2600 3100 2700
+Connection ~ 3100 2700
+Wire Wire Line
+	3100 2700 3650 2700
+Wire Wire Line
+	3600 2600 3600 2500
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 2500 3650 2500
+Wire Wire Line
+	3500 2600 3600 2600
+Wire Wire Line
+	2750 1800 3100 1800
+Wire Wire Line
+	2750 1600 3600 1600
+Wire Wire Line
+	3500 1700 3600 1700
+Wire Wire Line
+	3600 1700 3600 1600
+Connection ~ 3600 1600
+Wire Wire Line
+	3600 1600 3650 1600
+Wire Wire Line
+	3200 1700 3100 1700
+Wire Wire Line
+	3100 1700 3100 1800
+Connection ~ 3100 1800
+Wire Wire Line
+	3100 1800 3650 1800
+$Comp
+L Connector:Screw_Terminal_01x02 J10
+U 1 1 5FB30378
+P 2350 1350
+F 0 "J10" H 2268 1567 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 2268 1476 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2350 1350 50  0001 C CNN
+F 3 "~" H 2350 1350 50  0001 C CNN
+	1    2350 1350
+	-1   0    0    -1  
+$EndComp
+Text Label 2750 1450 0    50   ~ 0
+REL_0
+Wire Wire Line
+	2750 1350 2550 1350
+Wire Wire Line
+	2550 1450 2750 1450
+Text Label 2750 2250 0    50   ~ 0
+N
+$Comp
+L Connector:Screw_Terminal_01x02 J11
+U 1 1 5FBC2C0F
+P 2350 2250
+F 0 "J11" H 2268 2467 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 2268 2376 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2350 2250 50  0001 C CNN
+F 3 "~" H 2350 2250 50  0001 C CNN
+	1    2350 2250
+	-1   0    0    -1  
+$EndComp
+Text Label 2750 2350 0    50   ~ 0
+REL_1
+Wire Wire Line
+	2750 2250 2550 2250
+Wire Wire Line
+	2550 2350 2750 2350
+Text Label 2750 3150 0    50   ~ 0
+N
+$Comp
+L Connector:Screw_Terminal_01x02 J12
+U 1 1 5FC54452
+P 2350 3150
+F 0 "J12" H 2268 3367 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 2268 3276 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2350 3150 50  0001 C CNN
+F 3 "~" H 2350 3150 50  0001 C CNN
+	1    2350 3150
+	-1   0    0    -1  
+$EndComp
+Text Label 2750 3250 0    50   ~ 0
+REL_2
+Wire Wire Line
+	2750 3150 2550 3150
+Wire Wire Line
+	2550 3250 2750 3250
 $EndSCHEMATC
