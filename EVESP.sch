@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 10250 3400 0    60   ~ 0
+Text Label 10250 3100 0    60   ~ 0
 CP_in
 Text Label 10250 3500 0    50   ~ 0
 CP_out
@@ -385,7 +385,7 @@ L Device:R R2
 U 1 1 5E606750
 P 2100 5300
 F 0 "R2" H 2030 5254 50  0000 R CNN
-F 1 "DNI 10k" H 2030 5345 50  0000 R CNN
+F 1 "10k" H 2030 5345 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2030 5300 50  0001 C CNN
 F 3 "~" H 2100 5300 50  0001 C CNN
 	1    2100 5300
@@ -423,23 +423,7 @@ F 3 "" H 2100 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 5550 2100 5500
-Wire Wire Line
 	2100 4300 2100 4400
-$Comp
-L Device:C C1
-U 1 1 5E62DADD
-P 1450 5300
-F 0 "C1" H 1565 5346 50  0000 L CNN
-F 1 "100n" H 1565 5255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1488 5150 50  0001 C CNN
-F 3 "~" H 1450 5300 50  0001 C CNN
-	1    1450 5300
-	1    0    0    -1  
-$EndComp
-Connection ~ 2100 5500
-Wire Wire Line
-	2100 5500 2100 5450
 $Comp
 L Device:C C4
 U 1 1 5E634800
@@ -985,14 +969,6 @@ F 3 "~" H 11900 2200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 4800 3250 4800
-Wire Wire Line
-	1450 5500 1450 5450
-Wire Wire Line
-	1450 5500 2100 5500
-Wire Wire Line
-	1450 5150 1450 5000
-Wire Wire Line
-	1450 5000 2100 5000
 $Comp
 L Device:C C3
 U 1 1 5F30F460
@@ -1334,47 +1310,14 @@ Connection ~ 7250 10800
 Wire Wire Line
 	7250 10800 8150 10800
 $Comp
-L Mechanical:MountingHole H3
-U 1 1 6002D0C7
-P 13900 8750
-F 0 "H3" H 14000 8796 50  0000 L CNN
-F 1 "MountingHole" H 14000 8705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 13900 8750 50  0001 C CNN
-F 3 "~" H 13900 8750 50  0001 C CNN
-	1    13900 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 60057AA1
-P 14650 8750
-F 0 "H5" H 14750 8796 50  0000 L CNN
-F 1 "MountingHole" H 14750 8705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 14650 8750 50  0001 C CNN
-F 3 "~" H 14650 8750 50  0001 C CNN
-	1    14650 8750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H6
 U 1 1 600581A0
 P 14650 9000
 F 0 "H6" H 14750 9046 50  0000 L CNN
 F 1 "MountingHole" H 14750 8955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 14650 9000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 14650 9000 50  0001 C CNN
 F 3 "~" H 14650 9000 50  0001 C CNN
 	1    14650 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 600584B4
-P 13900 9000
-F 0 "H4" H 14000 9046 50  0000 L CNN
-F 1 "MountingHole" H 14000 8955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 13900 9000 50  0001 C CNN
-F 3 "~" H 13900 9000 50  0001 C CNN
-	1    13900 9000
 	1    0    0    -1  
 $EndComp
 Text Label 2450 4800 0    50   ~ 0
@@ -1813,7 +1756,7 @@ U 1 1 618E92F2
 P 13850 5400
 F 0 "D7" V 13889 5283 50  0000 R CNN
 F 1 "LED" V 13798 5283 50  0000 R CNN
-F 2 "LED_SMD:LED_2816_7142Metric_Pad3.20x4.45mm_HandSolder" H 13850 5400 50  0001 C CNN
+F 2 "LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 13850 5400 50  0001 C CNN
 F 3 "~" H 13850 5400 50  0001 C CNN
 	1    13850 5400
 	0    -1   -1   0   
@@ -1876,7 +1819,7 @@ U 1 1 61C0EC3A
 P 14250 5400
 F 0 "D8" V 14289 5283 50  0000 R CNN
 F 1 "LED" V 14198 5283 50  0000 R CNN
-F 2 "LED_SMD:LED_2816_7142Metric_Pad3.20x4.45mm_HandSolder" H 14250 5400 50  0001 C CNN
+F 2 "LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 14250 5400 50  0001 C CNN
 F 3 "~" H 14250 5400 50  0001 C CNN
 	1    14250 5400
 	0    -1   -1   0   
@@ -1887,7 +1830,7 @@ U 1 1 61C0F4A2
 P 14650 5400
 F 0 "D9" V 14689 5283 50  0000 R CNN
 F 1 "LED" V 14598 5283 50  0000 R CNN
-F 2 "LED_SMD:LED_2816_7142Metric_Pad3.20x4.45mm_HandSolder" H 14650 5400 50  0001 C CNN
+F 2 "LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 14650 5400 50  0001 C CNN
 F 3 "~" H 14650 5400 50  0001 C CNN
 	1    14650 5400
 	0    -1   -1   0   
@@ -1898,7 +1841,7 @@ U 1 1 61C0F8BC
 P 15050 5400
 F 0 "D10" V 15089 5283 50  0000 R CNN
 F 1 "LED" V 14998 5283 50  0000 R CNN
-F 2 "LED_SMD:LED_2816_7142Metric_Pad3.20x4.45mm_HandSolder" H 15050 5400 50  0001 C CNN
+F 2 "LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 15050 5400 50  0001 C CNN
 F 3 "~" H 15050 5400 50  0001 C CNN
 	1    15050 5400
 	0    -1   -1   0   
@@ -2231,17 +2174,6 @@ Wire Wire Line
 	1100 1950 1250 1950
 Wire Wire Line
 	1550 1950 1850 1950
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 631DBD75
-P 900 1850
-F 0 "J1" H 900 2100 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 600 2000 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 900 1850 50  0001 C CNN
-F 3 "~" H 900 1850 50  0001 C CNN
-	1    900  1850
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 10800 5450 10800
 $Comp
@@ -2510,8 +2442,6 @@ Text Label 10650 8150 0    50   ~ 0
 SafeToCharge
 Wire Wire Line
 	10650 8150 10300 8150
-Text Label 10250 3000 0    50   ~ 0
-SafeToCharge
 Text Label 5150 800  0    50   ~ 0
 SafeToCharge
 $Comp
@@ -2556,7 +2486,7 @@ Wire Wire Line
 Connection ~ 4850 2500
 Wire Wire Line
 	4850 2500 4850 3400
-Text Label 10250 3100 0    50   ~ 0
+Text Label 10250 3300 0    50   ~ 0
 Charge
 Text Label 10650 6400 0    50   ~ 0
 Charge
@@ -2631,7 +2561,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 5900 9500 5800
 Wire Wire Line
-	10650 6400 10300 6400
+	10650 6400 10400 6400
 $Comp
 L Diode:BAT54S D11
 U 1 1 5E73EEDB
@@ -2879,4 +2809,75 @@ Wire Wire Line
 	2750 3150 2550 3150
 Wire Wire Line
 	2550 3250 2750 3250
+Text Label 10250 3000 0    50   ~ 0
+SafeToCharge
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 631DBD75
+P 900 1850
+F 0 "J1" H 900 2100 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 600 2000 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 900 1850 50  0001 C CNN
+F 3 "~" H 900 1850 50  0001 C CNN
+	1    900  1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5FDAD1A2
+P 9950 5850
+F 0 "R22" V 9850 5800 50  0000 L CNN
+F 1 "1M" V 9950 5800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9880 5850 50  0001 C CNN
+F 3 "~" H 9950 5850 50  0001 C CNN
+	1    9950 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 6300 9700 5850
+Wire Wire Line
+	9700 5850 9800 5850
+Connection ~ 9700 6300
+Wire Wire Line
+	10100 5850 10400 5850
+Wire Wire Line
+	10400 5850 10400 6400
+Connection ~ 10400 6400
+Wire Wire Line
+	10400 6400 10300 6400
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 600584B4
+P 13900 9000
+F 0 "H4" H 14000 9046 50  0000 L CNN
+F 1 "MountingHole" H 14000 8955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 13900 9000 50  0001 C CNN
+F 3 "~" H 13900 9000 50  0001 C CNN
+	1    13900 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60057AA1
+P 14650 8750
+F 0 "H5" H 14750 8796 50  0000 L CNN
+F 1 "MountingHole" H 14750 8705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 14650 8750 50  0001 C CNN
+F 3 "~" H 14650 8750 50  0001 C CNN
+	1    14650 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6002D0C7
+P 13900 8750
+F 0 "H3" H 14000 8796 50  0000 L CNN
+F 1 "MountingHole" H 14000 8705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 13900 8750 50  0001 C CNN
+F 3 "~" H 13900 8750 50  0001 C CNN
+	1    13900 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5450 2100 5550
 $EndSCHEMATC
