@@ -2779,7 +2779,7 @@ F 3 "" H 9500 8900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8550 6500 8700 6500
-Text Notes 9300 6300 0    50   ~ 0
+Text Notes 9500 6300 0    50   ~ 0
 7,1V
 Text Notes 7550 5100 0    50   ~ 0
 0.3V … 2,7V
@@ -2830,9 +2830,11 @@ Wire Wire Line
 	9200 8050 9500 8050
 Connection ~ 9500 8050
 Text Notes 9250 8000 0    50   ~ 0
-OK: 2.7V\nFail: 0V\n
+OK: 2.7V\nFail: -2.7V\n
 Text Notes 9900 6800 0    50   ~ 0
 Car ready for charger \nwhen CP (high value) < 7V\n
 Text Notes 5450 7150 0    50   ~ 0
 Open drain driver \nreleases with fault \ncurrent.
+Text Notes 8400 6400 0    50   ~ 0
+RC=100ms => \nSW must implement \nbigger delay on the enable.
 $EndSCHEMATC
