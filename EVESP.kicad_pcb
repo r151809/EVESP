@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0-10_14)")
 
   (general
     (thickness 1.6)
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.5)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
@@ -69,6 +69,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 138.176 110.617)
+    (grid_origin 45.09 163.19)
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010c0_ffffffff)
@@ -4684,10 +4685,10 @@
   (gr_text "EVESP v1.0\nTop" (at 99.06 107.315) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.15)))
   )
-  (gr_line (start 45.085 163.195) (end 144.78 163.195) (layer Edge.Cuts) (width 0.1) (tstamp 5E5C3CCD))
-  (gr_line (start 45.085 64.135) (end 45.085 163.195) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 144.78 64.135) (end 45.085 64.135) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 144.78 163.195) (end 144.78 64.135) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 45 163.5) (end 145 163.5) (layer Edge.Cuts) (width 0.1) (tstamp 5E5C3CCD))
+  (gr_line (start 45 64) (end 45 163.5) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 145 64) (end 45 64) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 145 163.5) (end 145 64) (layer Edge.Cuts) (width 0.1))
 
   (via (at 102.616 122.428) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 120.396 114.808) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
@@ -5241,7 +5242,6 @@
   (segment (start 93.98 152.725) (end 93.98 150.25) (width 0.5) (layer F.Cu) (net 65) (status 20))
   (segment (start 89.805 156.9) (end 93.98 152.725) (width 0.5) (layer F.Cu) (net 65))
   (segment (start 89.805 157.8) (end 89.805 156.9) (width 0.5) (layer F.Cu) (net 65) (status 10))
-  (segment (start 116.205 102.235) (end 111.76 102.235) (width 1) (layer F.Cu) (net 75) (status 30))
   (segment (start 98.425 139) (end 97.22 139) (width 0.4) (layer F.Cu) (net 66) (status 10))
   (segment (start 97.155 139.065) (end 100.33 135.89) (width 0.4) (layer B.Cu) (net 66))
   (via (at 100.33 130.175) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 66))
@@ -5302,7 +5302,6 @@
   (segment (start 97.570801 137.16) (end 99.301791 135.42901) (width 0.3) (layer F.Cu) (net 69))
   (segment (start 93.915 142.485) (end 93.58599 142.15599) (width 0.3) (layer F.Cu) (net 69) (status 10))
   (segment (start 94.615 142.485) (end 93.915 142.485) (width 0.3) (layer F.Cu) (net 69) (status 30))
-  (segment (start 111.76 94.615) (end 116.205 94.615) (width 1) (layer F.Cu) (net 74) (status 30))
   (segment (start 96.52 129.745088) (end 96.52 129.54) (width 0.3) (layer F.Cu) (net 71))
   (segment (start 99.695 134.05) (end 99.695 132.920088) (width 0.3) (layer F.Cu) (net 71) (status 10))
   (segment (start 99.695 132.920088) (end 96.52 129.745088) (width 0.3) (layer F.Cu) (net 71))
@@ -5331,10 +5330,12 @@
   (segment (start 127 143.51) (end 127 141.54) (width 0.4) (layer F.Cu) (net 73) (status 20))
   (segment (start 126.365 144.145) (end 127 143.51) (width 0.4) (layer F.Cu) (net 73))
   (segment (start 126.365 150.25) (end 126.12 150.495) (width 0.4) (layer F.Cu) (net 73) (status 30))
+  (segment (start 111.76 94.615) (end 116.205 94.615) (width 1) (layer F.Cu) (net 74) (status 30))
   (segment (start 110.125 92.98) (end 111.76 94.615) (width 0.3) (layer F.Cu) (net 74))
   (segment (start 107.188 92.98) (end 110.125 92.98) (width 0.3) (layer F.Cu) (net 74))
   (segment (start 102.609 92.98) (end 102.117 93.472) (width 0.3) (layer F.Cu) (net 74))
   (segment (start 107.188 92.98) (end 102.609 92.98) (width 0.3) (layer F.Cu) (net 74))
+  (segment (start 116.205 102.235) (end 111.76 102.235) (width 1) (layer F.Cu) (net 75) (status 30))
   (segment (start 109.229 102.083) (end 109.204 102.108) (width 0.3) (layer F.Cu) (net 75) (tstamp 5E5D9255))
   (segment (start 111.633 102.108) (end 111.76 102.235) (width 0.3) (layer F.Cu) (net 75))
   (segment (start 109.204 102.108) (end 111.633 102.108) (width 0.3) (layer F.Cu) (net 75))
