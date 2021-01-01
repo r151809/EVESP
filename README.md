@@ -26,7 +26,7 @@ Pinout is here: https://arduino-projekte.info/wemos-lolin32/
 Security:
 SW cannot enable relay drivers unless RCM is happy and CP is connected to some load. So the design should be safe in case of forced disconnect and any ground leakage.
 
-Manufacturing of the first PCB patch will be done by Itead.cc. 
+Manufacturing of the first PCB patch was done by Itead.cc with files in EVESP.zip.
 
 ## Copying
 Feel free to copy anything I have added to this project. If it is not too much to ask, please let me know what you are doing (it's not mandatory) :). Also any bug's would be nice to know.
